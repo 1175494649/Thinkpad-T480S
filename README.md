@@ -6,7 +6,7 @@ This repository contains the configuration to run macOS (Mojave `10.14`) on a Le
 
 - Lenovo ThinkPad T480s
   - Intel i7-8550U
-  - 8GB RAM onboard + Kingston DDR4 2400-SODIMM
+  - 8GB RAM onboard + 8GB Kingston DDR4 2400-SODIMM
   - WD Black 3D NVMe SSD 500G
   - Dell DW1560 Wireless (original Intel AC8265 not working)
     - Wi-Fi device ID [`14e4:43b1`], shows as Apple Airport Extreme due to `AirportBrcmFixup.kext`
