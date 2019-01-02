@@ -19,13 +19,14 @@ This repository contains the configuration to run macOS (Mojave `10.14`) on a Le
     - Support multi-touch gestures
     - Need to disable Trackpoint in BIOS (otherwise touchpad would be disconnected)
     
-  - Disabled devices
+- Disabled devices
   - WWAN (no module)
   - Trackpoint
   
-  - Untested devices
+- Untested devices
   - SD card reader
   - Fingerprint scanner
   - Thunderbolt 3 (USB type-c works)
+  
 - Firmware Revisions
   - BIOS version `1.27`
