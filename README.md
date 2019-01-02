@@ -9,9 +9,7 @@ This repository contains the configuration to run macOS (Mojave `10.14`) on a Le
   - 8GB RAM onboard + 8GB Kingston DDR4 2400-SODIMM
   - WD Black 3D NVMe SSD 500G
   - Dell DW1560 Wireless (original Intel AC8265 not working)
-    - Wi-Fi device ID [`14e4:43b1`], shows as Apple Airport Extreme due to `AirportBrcmFixup.kext`
-    - Bluetooth device ID [`0a5c:216f`], chipset `20702A3` with firmware `v14 c5882` using `BrcmPatchRAM2.kext`
-  - Realtek ALC257 by `AppleALC.kext` with `layout-id` 11 (requies a [patch][alc], already patched in this repo)
+  - Realtek ALC257
   - Intel UHD Graphics 620 (Nvidia MX150 disabled, Optimus not supported by macOS)
   - Power management and battery status by ACPI hotpatching
   - Integrated camera (works out of the box)
@@ -30,3 +28,8 @@ This repository contains the configuration to run macOS (Mojave `10.14`) on a Le
   
 - Firmware Revisions
   - BIOS version `1.27`
+
+
+## Credits
+
+- [linusyang92/macOS-ThinkPad-T480s](https://github.com/linusyang92/macOS-ThinkPad-T480s)
