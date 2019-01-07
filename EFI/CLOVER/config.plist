@@ -315,9 +315,9 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>nv_disable=1 dart=0 bpr_probedelay=200 bpr_initialdelay=400 bpr_postresetdelay=400</string>
+		<string>dart=0 nv_disable=1</string>
 		<key>DefaultVolume</key>
-		<string>MacintoshHD</string>
+		<string>MacOS</string>
 		<key>Legacy</key>
 		<string>PBR</string>
 		<key>NeverHibernate</key>
@@ -346,37 +346,17 @@
 				<data>
 				FlkAAA==
 				</data>
-				<key>disable-external-gpu</key>
-				<data>
-				AQAAAA==
-				</data>
 				<key>enable-hdmi20</key>
-				<data>
-				AQAAAA==
-				</data>
-				<key>framebuffer-con1-enable</key>
-				<data>
-				AQAAAA==
-				</data>
-				<key>framebuffer-con1-type</key>
-				<data>
-				AAgAAA==
-				</data>
+				<integer>1</integer>
 				<key>framebuffer-fbmem</key>
 				<data>
 				AACQAA==
 				</data>
 				<key>framebuffer-patch-enable</key>
-				<data>
-				AQAAAA==
-				</data>
+				<integer>1</integer>
 				<key>framebuffer-stolenmem</key>
 				<data>
 				AAAwAQ==
-				</data>
-				<key>framebuffer-unifiedmem</key>
-				<data>
-				AAAAgA==
 				</data>
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
@@ -405,8 +385,6 @@
 		<array>
 			<string>Preboot</string>
 		</array>
-		<key>Language</key>
-		<string>cz:0</string>
 		<key>Mouse</key>
 		<dict>
 			<key>DoubleClick</key>
@@ -429,8 +407,6 @@
 			<key>Tool</key>
 			<true/>
 		</dict>
-		<key>ScreenResolution</key>
-		<string>1920x1080</string>
 		<key>Theme</key>
 		<string>Neon</string>
 	</dict>
@@ -581,24 +557,6 @@
 				SU9LaXM=
 				</data>
 			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Prevent 2 Stage Glitch</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				AQAAdWQ=
-				</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>Name</key>
-				<string>IOGraphicsFamily</string>
-				<key>Replace</key>
-				<data>
-				AQAA62Q=
-				</data>
-			</dict>
 		</array>
 	</dict>
 	<key>RtVariables</key>
@@ -613,49 +571,41 @@
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>09/17/2018</string>
+		<string>08/08/2017</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MBP141.88Z.F000.B00.1809171524</string>
+		<string>MBP141.88Z.0167.B00.1708080034</string>
 		<key>Board-ID</key>
 		<string>Mac-B4831CEBD52A0C4C</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02741301CDHWVP1H</string>
+		<string>C027259024NHWVP1F</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
-		<string>1.0</string>
+		<string>MacBookPro14,1</string>
 		<key>ChassisAssetTag</key>
 		<string>MacBook-Aluminum</string>
 		<key>ChassisManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>ChassisType</key>
 		<string>0x09</string>
-		<key>EfiVersion</key>
-		<string>184.0.0.0.0</string>
 		<key>Family</key>
 		<string>MacBook Pro</string>
-		<key>FirmwareFeatures</key>
-		<string>0xFC0FE137</string>
-		<key>FirmwareFeaturesMask</key>
-		<string>0xFF1FFF3F</string>
 		<key>LocationInChassis</key>
 		<string>Part Component</string>
 		<key>Manufacturer</key>
 		<string>Apple Inc.</string>
 		<key>Mobile</key>
 		<true/>
-		<key>PlatformFeature</key>
-		<string>0x1A</string>
 		<key>ProductName</key>
 		<string>MacBookPro14,1</string>
 		<key>SerialNumber</key>
-		<string>C02VJ0FPHV29</string>
+		<string>C02TW3ZMHV29</string>
 		<key>SmUUID</key>
-		<string>1FA14CF7-126F-40CA-A723-BCFCE14BBE37</string>
+		<string>96A35E97-835A-44CB-873B-9C1EFBCBD734</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
